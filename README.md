@@ -2,4 +2,5 @@
 <html>
   <head>
     <title>Readme title</title>
-</head>
+  </head>
+</html>
