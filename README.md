@@ -1,5 +1,1 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <title>Readme title.</title>
-</head>
+print("Main readme")
