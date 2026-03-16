@@ -2,13 +2,16 @@
 <html>
   <h1>Gallery/Visual Page</h1>
   <p style="color:DarkOrchid">Color Testing</p>
+  <p>
     <button type="button" onclick="box(g)">GO Button</button>
-  <button type="button" onclick="box(r)">STOP Button</button>
+    <button type="button" onclick="box(r)">STOP Button</button>
+  </p>
   <img src="red-square.png" alt="Red Square" width="150" height="150">
   <img src="green-square.png" alt="Green Square" width="150" height="150">
     <p id="change-color">Stopped</p>
   <script>
   function box(color) { 
+    var img;
     if (color=g) {
       img = "green-square.png"
     } else {
