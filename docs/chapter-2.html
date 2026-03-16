@@ -2,12 +2,18 @@
 <html>
   <h1>Gallery/Visual Page</h1>
   <p style="color:DarkOrchid">Color Testing</p>
+    <button type="button" onclick="box(g)">GO Button</button>
+  <button type="button" onclick="box(r)">STOP Button</button>
   <img src="red-square.png" alt="Red Square" width="150" height="150">
     <p id="change-color">Stopped</p>
-  <button type="button" onclick="myFunction()">GO Button</button>
   <script>
-  function myFunction() { 
-    document.getElementById("change-color").innerHTML = "Hello JavaScript!";
+  function box(color) { 
+    if (color=g) {
+      img = "green-square.png"
+    } else {
+      img = "red-square.png"
+    }
+    document.getElementById("change-color").innerHTML = "Going";
   }
   </script>
 </html>
