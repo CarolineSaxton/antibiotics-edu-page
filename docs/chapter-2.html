@@ -3,11 +3,11 @@
   <h1>Gallery/Visual Page</h1>
   <p style="color:DarkOrchid">Color Testing</p>
   <img src="red-square.png" alt="Red Square" width="150" height="150">
+    <p id="change-color">Stopped</p>
   <button type="button" onclick="myFunction()">GO Button</button>
-  <p id="change-square-color">Stopped</p>
   <script>
-  function myFunction() {
-      document.getElementByID("change-square-color").innerHTML = "Going";
-    }
+  function myFunction() { 
+    document.getElementById("change-color").innerHTML = "Hello JavaScript!";
+  }
   </script>
 </html>
