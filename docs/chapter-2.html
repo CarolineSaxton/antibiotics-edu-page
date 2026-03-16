@@ -2,13 +2,7 @@
 <html>
   <h1>Gallery/Visual Page</h1>
   <p style="color:DarkOrchid">Color Testing</p>
-  <p>
-    <button type="button" onclick="box(g)">GO Button</button>
-    <button type="button" onclick="box(r)">STOP Button</button>
-  </p>
-  <img src="red-square.png" alt="Red Square" width="150" height="150">
-    <p id="change-color">Stopped</p>
-  <script>
+   <script>
   function box(color) { 
     var img;
     if (color=g) {
@@ -16,7 +10,12 @@
     } else {
       img = "red-square.png"
     }
-    document.getElementById("change-color").innerHTML = "Going";
+    document.getElementById("change-color").src = img;
   }
   </script>
+    <img src="red-square.png" alt="Red Square" width="150" height="150">
+  <p>
+    <button type="button" onclick="box(g)">GO Button</button>
+    <button type="button" onclick="box(r)">STOP Button</button>
+  </p>
 </html>
