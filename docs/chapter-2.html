@@ -3,9 +3,9 @@
   <h1>Gallery/Visual Page</h1>
   <p style="color:DarkOrchid">Color Testing</p>
    <script>
-  function box(color) { 
+  function color(numb) { 
     var img;
-    if (color==g) {
+    if (numb==0) {
       img = "green-square.png"
     } else {
       img = "red-square.png"
@@ -15,7 +15,7 @@
   </script>
     <img src="red-square.png" alt="Red Square" width="150" height="150">
   <p>
-    <button type="button" onclick="box(g)">GO Button</button>
-    <button type="button" onclick="box(r)">STOP Button</button>
+    <button type="button" onclick="color(0)">GO Button</button>
+    <button type="button" onclick="color(1)">STOP Button</button>
   </p>
 </html>
