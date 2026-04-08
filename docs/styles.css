@@ -1,4 +1,4 @@
-h1 {
+header {
   text-align: center; 
   background-color: rebeccapurple;
   color: #ffffff;
@@ -6,4 +6,16 @@ h1 {
 h2 {
   color:#ccb3ff;
 }
-  
+nav {
+  float: left;
+  width: 25%;
+}
+article {
+  float: left;
+  width: 75%;
+}
+section: :after {
+  content:"";
+  display: table;
+  clear:both;
+}
