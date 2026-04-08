@@ -10,6 +10,8 @@ nav {
   float: left;
   width: 25%;
   font-size: 30px;
+  background-color: #ccb3ff;
+  color: #ffffff;
 }
 article {
   float: left;
