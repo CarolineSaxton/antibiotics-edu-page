@@ -9,15 +9,14 @@ h2 {
 nav {
   float: left;
   width: 25%;
-  padding: 30px;
-  font-size: 40px;
-  background-color: #ccb3ff;
-  color: #ffffff;
+  padding: 10px;
+  font-size: 30px;
+  color: #ccb3ff;
 }
 article {
   float: left;
   width: 75%;
-  padding: 30px;
+  padding: 10px;
 }
 section: :after {
   content:"";
