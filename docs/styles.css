@@ -13,6 +13,10 @@ nav {
   font-size: 30px;
   color: #ccb3ff;
 }
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
 article {
   float: left;
   width: 75%;
