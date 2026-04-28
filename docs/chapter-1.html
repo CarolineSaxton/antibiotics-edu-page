@@ -22,16 +22,16 @@
 function color(numb) { 
     var img;
     if (numb == 0) {
-      img = "red-square.png"
-    } else {
       img = "bacterial-cell.jpg"
+    } else {
+      img = "green-square.png"
     }
     document.getElementById('myImage').src = img;
   }
   </script>
-    <img id="myImage" src="red-square.png" alt="Red Square" width="200" height="200">
+    <img id="myImage" src="bacterial-cell.jpg" alt="Bacteria Cell" width="200" height="200">
   <p>
-    <button type="button" onclick="color(0)">STOP Button</button>
+    <button type="button" onclick="color(0)">Reset</button>
     <button type="button" onclick="color(1)">GO Button</button>
   </p>
   </article>
