@@ -18,6 +18,22 @@
   <article>
     <h2>Chapter 1: Antibiotics</h2>
     <p>Antibiotics are a type of medicine used to treat infections caused by bacteria. They do this by stopping bacterial cells from building their cell wall, DNA/RNA, or proteins. Without one of those things, the cells eventually cannot survive and die off. </p>
+       <script>
+function color(numb) { 
+    var img;
+    if (numb == 0) {
+      img = "red-square.png"
+    } else {
+      img = "bacterial-cell.jpg"
+    }
+    document.getElementById('myImage').src = img;
+  }
+  </script>
+    <img id="myImage" src="red-square.png" alt="Red Square" width="200" height="200">
+  <p>
+    <button type="button" onclick="color(0)">STOP Button</button>
+    <button type="button" onclick="color(1)">GO Button</button>
+  </p>
   </article>
 </section>
 </html>
