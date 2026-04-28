@@ -12,8 +12,7 @@ h2 {
 nav {
   float: left;
   width: 25%;
-  padding: 20px;
-  font-size: 25px;
+  padding: 10px;
   color: #ccb3ff;
 }
 nav ol {
@@ -23,7 +22,7 @@ nav ol {
 article {
   float: left;
   width: 75%;
-  padding: 20px;
+  padding: 40px;
 }
 section: :after {
   content:"";
