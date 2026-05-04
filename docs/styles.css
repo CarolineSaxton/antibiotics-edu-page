@@ -4,6 +4,7 @@
 header {
   text-align: center; 
   background-color: rebeccapurple;
+  padding: 10px;
   font-size: 25px;
   color: #ffffff;
 }
@@ -34,4 +35,10 @@ section: :after {
   content:"";
   display: table;
   clear: both;
+}
+footer {
+  text-align: center;
+  background-color: rebeccapurple;
+  padding: 10px;
+  color: #ffffff;
 }
