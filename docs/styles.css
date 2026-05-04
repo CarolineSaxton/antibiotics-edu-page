@@ -4,6 +4,7 @@
 header {
   text-align: center; 
   background-color: rebeccapurple;
+  font-size: 25px;
   color: #ffffff;
 }
 h2 {
@@ -27,7 +28,7 @@ article {
 aside {
   float: right;
   width: 20%;
-  padding: 20 px;
+  padding: 20px;
 }
 section: :after {
   content:"";
