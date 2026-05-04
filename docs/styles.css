@@ -32,7 +32,7 @@ aside {
   padding: 20px;
 }
 section: :after {
-  content:"";
+  content: "";
   display: table;
   clear: both;
 }
