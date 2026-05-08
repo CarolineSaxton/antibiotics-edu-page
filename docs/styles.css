@@ -39,9 +39,8 @@ section: :after {
 footer {
   text-align: center;
   clear: both;
-  background-color: orange;
   padding: 10px;
-  color: #ffffff;
+  color: #ccb3ff;
 }
 img {
   float: left;
