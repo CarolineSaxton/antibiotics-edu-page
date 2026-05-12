@@ -44,6 +44,7 @@ footer {
 }
 img {
   float: left;
+  padding: 15px;
 }
 p.clear {
   clear: left;
