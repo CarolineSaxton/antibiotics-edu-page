@@ -24,7 +24,23 @@
   </nav>
   <article>
     <h2>Chapter 2: Antivirals</h2>
+     <script>
+function color(numb) { 
+    var img;
+    if (numb == 0) {
+      img = "viral-cell.jpg"
+    } else {
+      img = "green-square.png"
+    }
+    document.getElementById('myImage').src = img;
+  }
+  </script>
+    <img id="myImage" src="viral-cell.jpg" alt="Virus Cell" width="200" height="200">
     <p>Antivirals, as could be assumed by their name, treat viral infections. This includes common infections like COVID-19, HIV, and Influenza. </p>
+    <p class="clear">
+      <button type="button" onclick="color(0)">Reset</button>
+      <button type="button" onclick="color(1)">GO Button</button>
+    </p>
   </article>
   <aside>
     <h3>Works Cited</h3>
