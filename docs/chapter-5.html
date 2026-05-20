@@ -25,7 +25,14 @@
   <article>
     <h2>Check for Understanding Game</h2>
     <script>
-      
+      function dragstartHandler(ev) {
+        ev.dataTransfer.setData("imgb", ev.target.id);
+      }
+      function dropHandler(ev) {
+        ev.preventDefault();
+        const data = ev.dataTransfer.getData("imgb");
+        ev.target.appendChild(document.getElementById(data));
+      }
     </script>
     <img id="imgb" draggable="true">
     <p>Antivirals, as could be assumed by their name, treat viral infections. This includes common infections like COVID-19, HIV, and Influenza. </p>
