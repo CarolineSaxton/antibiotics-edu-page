@@ -50,5 +50,7 @@ p.clear {
   clear: left;
 }
 divb {
-  width: 
+  width: 150px;
+  height: 150px;
   border: 2px solid #ccb3ff;
+}
