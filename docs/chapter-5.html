@@ -34,7 +34,9 @@
         ev.target.appendChild(document.getElementById(data));
       }
     </script>
-    <img id="imgb" draggable="true">
+    <div id="div1" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
+    <br>
+    <img id="imgb" src="bacterial-cell.jpg" draggable="true" ondragstart="dragstartHandler(event)" width="150" height="150">
     <p>Antivirals, as could be assumed by their name, treat viral infections. This includes common infections like COVID-19, HIV, and Influenza. </p>
   </article>
   <aside>
