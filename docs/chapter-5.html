@@ -25,19 +25,26 @@
   <article>
     <h2>Check for Understanding Game</h2>
     <script>
-      function dragstartHandler(ev) {
-        ev.dataTransfer.setData("imgb", ev.target.id);
-      }
-      function dropHandler(ev) {
-        ev.preventDefault();
-        const data = ev.dataTransfer.getData("imgb");
-        ev.target.appendChild(document.getElementById(data));
-      }
-    </script>
-    <div id="divb" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
-    <br>
-    <img id="imgb" src="bacterial-cell.jpg" draggable="true" ondragstart="dragstartHandler(event)" width="150" height="150">
-    <p>Antivirals, as could be assumed by their name, treat viral infections. This includes common infections like COVID-19, HIV, and Influenza. </p>
+    function dragstartHandler(ev) {
+      ev.dataTransfer.setData("img", ev.target.id);
+    }
+    
+    function dragoverHandler(ev) {
+      ev.preventDefault();
+    }
+    
+    function dropHandler(ev) {
+      ev.preventDefault();
+      const data = ev.dataTransfer.getData("img");
+      ev.target.appendChild(document.getElementById(data));
+    }
+  </script>
+<p>Drag the image of each antimicrobial into the correct corresponding box.</p>
+
+<div id="divb" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
+<br>
+<img id="imgb" src="bacterial-cell.jpg" draggable="true" ondragstart="dragstartHandler(event)" width="150" height="150">
+
   </article>
   <aside>
     <h3>Works Cited</h3>
