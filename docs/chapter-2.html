@@ -28,15 +28,17 @@
 function color(numb) { 
     var img;
     if (numb == 0) {
-      img = "virus.jepg"
+      img = "virus.jpeg"
     } else {
       img = "green-square.png"
     }
     document.getElementById('imgv').src = img;
   }
   </script>
-    <img id="imgv" src="virus.jpeg" alt="Virus Cell" width="200" height="200">
-    <p>Antivirals, as could be assumed by their name, treat viral infections. This includes common infections like COVID-19, HIV, and Influenza. </p>
+    <img id="imgv" src="virus.jpeg" alt="Virus" width="200" height="200">
+    <p>Antivirals, as could be assumed by their name, treat viral infections. This includes common infections like COVID-19, HIV, and Influenza. 
+    They work to fight viruses through several mechanisms. The most common method is when the antiviral binds to the virus molecule's receptors,
+    blocking its ability to enter healthy host cells and reproduce afterwards. </p>
     <p class="clear">
       <button type="button" onclick="color(0)">Reset</button>
       <button type="button" onclick="color(1)">See Affected Areas</button>
@@ -44,7 +46,10 @@ function color(numb) {
   </article>
   <aside>
     <h3>Works Cited</h3>
-    <p>https://www.lung.org/blog/antivirals-vs-antibiotics</p>
+    <p> 1. Dalton, Marla. “What Is an Antiviral?” NFID, National Foundation for Infectious Diseases, 
+      11 Dec. 2024, www.nfid.org/resource/what-is-an-antiviral/. </p>
+    <p>2. American Lung Association. “Antivirals vs Antibiotics: What You Need to Know.” Lung.org, 2024, 
+      www.lung.org/blog/antivirals-vs-antibiotics.</p>
   </aside>
 </section>
 </html>
