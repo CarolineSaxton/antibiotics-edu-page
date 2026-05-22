@@ -49,7 +49,7 @@ img {
 p.clear {
   clear: left;
 }
-divb {
+#divb {
   width: 160px;
   height: 160px;
   border: 2px solid #ccb3ff;
