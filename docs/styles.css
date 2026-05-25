@@ -10,11 +10,10 @@ header {
 }
 h2 {
   color:#ccb3ff;
-  font-size: 15px;
+  font-size: 20px;
 }
 p {
-  font-size: 20px;
-  color: #ccb3ff
+  font-size: 15px;
 }
 nav {
   float: left;
