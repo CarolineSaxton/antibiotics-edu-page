@@ -5,12 +5,12 @@ header {
   text-align: center; 
   background-color: rebeccapurple;
   padding: 10px;
-  font-size: 30px;
+  font-size: 20px;
   color: #ffffff;
 }
 h2 {
   color:#ccb3ff;
-  font-size: 25px;
+  font-size: 15px;
 }
 p {
   font-size: 15px;
@@ -18,7 +18,7 @@ p {
 nav {
   float: left;
   width: 20%;
-  padding: 20px;
+  padding: 10px;
   color: #ccb3ff;
 }
 nav ol {
