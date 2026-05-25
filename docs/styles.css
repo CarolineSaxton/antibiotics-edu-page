@@ -5,11 +5,15 @@ header {
   text-align: center; 
   background-color: rebeccapurple;
   padding: 10px;
-  font-size: 15px;
+  font-size: 25px;
   color: #ffffff;
 }
 h2 {
   color:#ccb3ff;
+  font-size: 20px;
+}
+p {
+  font-size: 10px;
 }
 nav {
   float: left;
