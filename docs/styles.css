@@ -56,5 +56,6 @@ p.clear {
 #divb {
   width: 160px;
   height: 160px;
-  border: 2px solid #ccb3ff;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
 }
